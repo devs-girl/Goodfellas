@@ -2,6 +2,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 20px;
+  margin: 0 auto;
 }
 p,
 h1,
@@ -14,6 +15,9 @@ h6 {
 }
 .mb-0 {
   margin-bottom: 0 !important;
+}
+.mb-10 {
+  margin-top: 10px !important;
 }
 .index-wrapper {
   background: #000000;
@@ -56,6 +60,7 @@ h6 {
   padding: 14px 136px;
   margin-bottom: 44px;
   font-weight: 400;
+  cursor: pointer;
 }
 
 /* -------------------------------------- sign in ------------------------------------------ */
@@ -101,6 +106,16 @@ h6 {
   margin-top: 8px;
   margin-bottom: 23px;
 }
+.agree {
+  width: 194px;
+  color: #a7a7a7;
+  font-size: 14px;
+  padding-left: 43px;
+  padding-right: 138px;
+  text-align: left;
+  margin-top: 8px;
+  margin-bottom: 23px;
+}
 .or {
   width: 272px;
   padding: 0 18px;
@@ -114,4 +129,29 @@ h6 {
 .icon a img {
   width: 38px;
   margin: 0 10px;
+}
+/* --------------------------------- forgot -------------------------- */
+.forgot-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #3d3d3d;
+  padding-left: 65px;
+  padding-right: 74px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  margin-top: 26px;
+}
+.back {
+  font-size: 14px;
+  font-weight: 400;
+  color: #a7a7a7;
+  margin-top: 16px;
+  display: block;
+}
+.col-title {
+  color: #ff3b00;
+}
+.forgot-wrapp {
+  padding: 247px 0;
+  /* height: 100vh; */
 }

@@ -1,11 +1,14 @@
 import React from 'react';
-import Index from '../Index';
+import Congrats from '../../Sign/Congrats';
 
 const Home = () => {
     return (
         <div>
-            <Index />
-            {/* <SignIn /> */}
+            {/* <Index />
+            <SignIn /> */}
+            {/* <SignUp /> */}
+            {/* <Forgot /> */}
+            <Congrats />
         </div>
     );
 };
