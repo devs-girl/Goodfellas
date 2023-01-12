@@ -12,7 +12,9 @@ h5,
 h6 {
   margin: 0;
 }
-
+.mb-0 {
+  margin-bottom: 0 !important;
+}
 .index-wrapper {
   background: #000000;
   /* height: 100vh; */
@@ -53,9 +55,63 @@ h6 {
   font-size: 16px;
   padding: 14px 136px;
   margin-bottom: 44px;
+  font-weight: 400;
 }
 
 /* -------------------------------------- sign in ------------------------------------------ */
+.signin-wrapper input {
+  width: 300px;
+  height: 48px;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  color: #a7a7a7;
+  margin-bottom: 16px;
+  padding: 0 20px;
+}
 .signin-wrapper {
-  padding: 184px 20px;
+  background: #f5f7f9;
+  padding: 184px 0px;
+}
+.sign-title {
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.title p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #3d3d3d;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  line-height: 24px;
+}
+.title span {
+  color: #ff3b00;
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 500;
+}
+.forgot {
+  text-align: right;
+  color: #a7a7a7;
+  font-size: 14px;
+  padding-left: 225px;
+  padding-right: 38px;
+  margin-top: 8px;
+  margin-bottom: 23px;
+}
+.or {
+  width: 272px;
+  padding: 0 18px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  padding: 26px 82px 0 82px;
+}
+
+.icon a img {
+  width: 38px;
+  margin: 0 10px;
 }
