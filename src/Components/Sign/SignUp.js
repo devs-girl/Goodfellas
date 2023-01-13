@@ -20,8 +20,14 @@ const SignUp = () => {
                 <input type="number" placeholder='Phone number' />
                 <input type="text" placeholder='Username or e-mail' />
                 <input type="password" placeholder='Password' />
-                <input className='mb-0' type="password" placeholder='Confirm your password' />
-                <p className='agree'>I agree to the Terms & Conditions and Privacy Policy</p>
+                <input className='' type="password" placeholder='Confirm your password' />
+                {/* <p className='agree'>I agree to the Terms & Conditions and Privacy Policy</p> */}
+
+                <div class="tacbox">
+                    <input className='check-input mb-0' id="checkbox1" type="checkbox" />
+                    <label className='agree' for="checkbox">I agree to the Terms & Conditions</label>
+                    <p className='agree ml-15' for="checkbox"> and Privacy Policy</p>
+                </div>
                 <div className="btn">
                     <button className='main-btn'>Continue</button>
                 </div>
