@@ -13,7 +13,7 @@ const Step2 = () => {
 
             <div className="circle-btn">
                 <div></div>
-                <div></div>
+                <div className='bg'></div>
                 <div></div>
             </div>
 

@@ -6,7 +6,10 @@ import Icon2 from '../../img/Btn google@3x.png';
 import Icon4 from '../../img/Btn twitter@3x.png';
 import OrSignIn from '../../img/or-signin.png';
 
+
+
 const SignUp = () => {
+
     return (
         <div className='signin-wrapper'>
             <div className="title">
@@ -19,7 +22,8 @@ const SignUp = () => {
                 <input type="text" placeholder='Last name' />
                 <input type="number" placeholder='Phone number' />
                 <input type="text" placeholder='Username or e-mail' />
-                <input type="password" placeholder='Password' />
+
+                <input className='' type="password" placeholder='Password' />
                 <input className='' type="password" placeholder='Confirm your password' />
                 {/* <p className='agree'>I agree to the Terms & Conditions and Privacy Policy</p> */}
 

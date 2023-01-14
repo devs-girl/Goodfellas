@@ -12,7 +12,7 @@ const Step1 = () => {
             <p className='step-title'>We will soon send a link to your registered email to reset your password.</p>
 
             <div className="circle-btn">
-                <div></div>
+                <div className='bg'></div>
                 <div></div>
                 <div></div>
             </div>

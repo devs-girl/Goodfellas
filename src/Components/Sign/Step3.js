@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../CSS/style.css';
-import StepImg3 from '../../img/step2.png';
+import StepImg3 from '../../img/step3.png';
 
 const Step3 = () => {
     return (
@@ -14,7 +14,7 @@ const Step3 = () => {
             <div className="circle-btn">
                 <div></div>
                 <div></div>
-                <div></div>
+                <div className='bg'></div>
             </div>
 
             <div className="skip-next">
