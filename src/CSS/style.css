@@ -292,42 +292,115 @@ input[type='checkbox'] {
   }
 }
 /* ------------------------------------------------------ profile ---------------------------------------------------------  */
-/* .wrapper {
-  width: 100vw;
-  height: 100vh;
-  background-color: #ffe3f6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-} */
-
-.input-field {
-  width: 300px;
-  height: 48px;
-  background-color: #fff;
-  color: #a7a7a7;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
-  margin: 0 auto;
-  border-radius: 10px;
-  margin-bottom: 16px;
+.boxContainer {
+  width: 293px;
+  height: 51px;
+  background: #f5f7f9;
+  border: 2px solid #f5f7f9;
+  border-radius: 50px;
+  padding: 0 10px;
 }
-
-.input-field input {
+.elementsContainer {
   width: 100%;
   height: 100%;
-  background-color: transparent;
-  border: hidden;
+  vertical-align: middle;
+}
+.search {
+  border: none;
+  height: 100%;
+  width: 100%;
+  padding: 0 5px;
+  color: #6e6e6e;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 50px;
+  background: #f5f7f9;
+}
+.search:focus {
   outline: none;
-  font-size: 14px;
-  text-indent: 2px;
-  padding: 5px;
-  margin-bottom: 0;
+}
+.s-icon {
+  font-size: 18px;
+  margin-top: 5px;
 }
 
-.input-field span {
-  cursor: pointer;
+/* filter  */
+.homemap-wrapper {
+  width: 375px;
+  margin: 0 auto;
+}
+.hmap {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 20px;
+}
+.bar {
+  height: 24px;
+  width: 24px;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: red;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+ul li {
+  list-style: none;
+}
+#toggler,
+label {
+  display: none;
+}
+label .bar {
+  color: #ec0000;
+}
+
+@media screen and (max-width: 1920px) {
+  .menu {
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+  }
+  label {
+    display: inline-flex;
+  }
+  #toggler:checked ~ .menu {
+    max-height: 100%;
+  }
+  .list {
+    flex-direction: column;
+    align-items: center;
+    pad: 20px;
+  }
+}
+.show-list {
+  height: 79px;
+  background: rgb(191, 187, 187);
+  border-radius: 17px 17px 0 0;
+  padding: 7px;
+}
+.border {
+  height: 4px;
+  width: 70px;
+  background-color: #000;
+  margin: 11px auto;
+}
+.show-list a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6e6e6e;
+  text-decoration: none;
 }
