@@ -490,7 +490,8 @@ label .bar {
   width: 375px;
   max-width: 100%;
   margin: 0 auto;
-  /* background: #f0f0f0; */
+  background: #f0f0f0;
+  border-radius: 20px;
 }
 .close {
   position: absolute;
@@ -529,7 +530,6 @@ label .bar {
 .vp-body {
   margin: 13px 20px;
   text-align: left;
-  padding-bottom: 64px;
 }
 .content {
   margin-bottom: 20px;
@@ -546,7 +546,7 @@ label .bar {
   color: #ff3b00;
 }
 .content.last {
-  margin-bottom: 64px;
+  margin-bottom: 99px;
 }
 .social-icon {
   color: #6e6e6e;
@@ -703,4 +703,116 @@ ul {
 }
 .border-none {
   border: none;
+}
+.save {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ff3b00;
+}
+.fl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d5d5d5;
+  padding: 23px 10px;
+  margin-bottom: 45px;
+}
+.edit-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6e6e6e;
+}
+/* mainProfile  */
+.search-box {
+  background: #d9dbdd;
+  padding: 10px 65px;
+  border-radius: 27px;
+}
+.searchs {
+  border: none;
+  background: transparent;
+}
+.menu-wrapper {
+  width: 375px;
+  margin: 0 auto;
+}
+.menu-body {
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.profile-info {
+  display: flex;
+  justify-content: space-around;
+}
+.profile-img img {
+  width: 56px;
+  height: 56px;
+}
+.pro-name-title {
+  text-align: left;
+}
+.pro-name-title h2 {
+  font-size: 14px;
+}
+.pro-name-title p {
+  font-size: 14px;
+  color: #6e6e6e;
+}
+.profile-list img {
+  width: 24px;
+  margin-right: 10px;
+}
+.view {
+  display: flex;
+  align-items: center;
+}
+.lists {
+  margin-bottom: 25px;
+}
+.lists svg {
+  font-size: 24px;
+  color: #ff3b00;
+  margin-right: 10px;
+}
+.profile-list {
+  margin: 42px 20px;
+}
+.bottom-text {
+  margin-top: 468px;
+}
+.bottom-text p {
+  margin: 0 20px;
+  color: #6e6e6e;
+  font-size: 16px;
+}
+.lists {
+  color: #6e6e6e;
+}
+.view.lists {
+  text-decoration: none;
+}
+.pt-0 {
+  padding-top: 0;
+}
+.mr-0 {
+  margin-right: 0;
+}
+
+.ed {
+  display: flex;
+  align-items: center;
+}
+.Impencil {
+  color: #6e6e6e;
+  height: 18px;
+  width: 18px;
+}
+.profile-img p {
+  font-size: 14px;
+  color: #6e6e6e;
+}
+.sn-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: last baseline;
 }
