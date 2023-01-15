@@ -1,5 +1,6 @@
 import React from 'react';
-import EditProfile from '../Profile/EditProfile';
+import AllProfile from '../Profile/AllProfile';
+// import EditProfile from '../Profile/EditProfile';
 // import MainProfile from '../Profile/MainProfile';
 // import Home1 from '../Home/Home1';
 // import ShowList from '../Profile/ShowList';
@@ -29,13 +30,14 @@ const Home = () => {
             {/* <HomeMap /> */}
             {/* <Notifications /> */}
             {/* <Profile /> */}
-            <EditProfile />
+            {/* <EditProfile /> */}
             {/* <Profileds /> */}
             {/* <ShowList /> */}
             {/* <TeamList /> */}
             {/* <Home1 /> */}
             {/* <FovouriteList /> */}
             {/* <MainProfile /> */}
+            <AllProfile />
 
 
         </div>

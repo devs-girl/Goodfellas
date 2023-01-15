@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "name": "Lucas Amorim",
+    "belt": "White",
+    "place": "Brazil",
+    "catagory": "all",
+    "img": "https://i.ibb.co/ZdMjf0p/profile1.png",
+    "favorite": "https://i.ibb.co/J3FBPzf/favorite-black-24dp-3x.png"
+  },
+  {
+    "id": "2",
+    "name": "Muhammad Umm",
+    "belt": "White",
+    "place": "Brazil",
+    "catagory": "all",
+    "img": "https://i.ibb.co/pZssqHp/profile.png",
+    "favorite": "https://i.ibb.co/J3FBPzf/favorite-black-24dp-3x.png"
+  },
+  {
+    "id": "3",
+    "name": "Lucas Amorim",
+    "belt": "White",
+    "place": "Brazil",
+    "catagory": "all",
+    "img": "https://i.ibb.co/ZdMjf0p/profile1.png",
+    "favorite": "https://i.ibb.co/J3FBPzf/favorite-black-24dp-3x.png"
+  },
+  {
+    "id": "4",
+    "name": "Muhammad Umm",
+    "belt": "White",
+    "place": "Brazil",
+    "catagory": "all",
+    "img": "https://i.ibb.co/pZssqHp/profile.png",
+    "favorite": "https://i.ibb.co/J3FBPzf/favorite-black-24dp-3x.png"
+  },
+  {
+    "id": "5",
+    "name": "Lucas Amorim",
+    "belt": "White",
+    "place": "Brazil",
+    "catagory": "all",
+    "img": "https://i.ibb.co/ZdMjf0p/profile1.png",
+    "favorite": "https://i.ibb.co/J3FBPzf/favorite-black-24dp-3x.png"
+  },
+  {
+    "id": "6",
+    "name": "Muhammad Umm",
+    "belt": "White",
+    "place": "Brazil",
+    "catagory": "all",
+    "img": "https://i.ibb.co/pZssqHp/profile.png",
+    "favorite": "https://i.ibb.co/J3FBPzf/favorite-black-24dp-3x.png"
+  }
+]

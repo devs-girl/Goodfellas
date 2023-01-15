@@ -83,6 +83,7 @@ input[type='checkbox'] {
 /* -------------------------------------- sign in ------------------------------------------ */
 .signin-wrapper input {
   width: 300px;
+  max-width: 100%;
   height: 48px;
   border-radius: 10px;
   border: none;
@@ -140,6 +141,7 @@ input[type='checkbox'] {
 }
 .or {
   width: 272px;
+  max-width: 100%;
   padding: 0 18px;
 }
 .icon {
@@ -199,7 +201,6 @@ input[type='checkbox'] {
 }
 .forgot-wrapp {
   padding: 247px 0;
-  /* height: 100vh; */
 }
 /* ------------------------------------- step ---------------------------------------------*/
 .step-wrapper {
@@ -452,6 +453,7 @@ label .bar {
   font-weight: 400;
   text-align: left;
   width: 153px;
+  max-width: 100%;
   padding-left: 12px;
 }
 .noti-right p {
@@ -516,6 +518,7 @@ label .bar {
 }
 .edit {
   width: 337px;
+  max-width: 100%;
   height: 48px;
   color: #ff3b00;
   font-size: 16px;
@@ -598,7 +601,7 @@ ul {
   max-width: 100%;
   margin: 0 auto;
   /* background: #f9f9fa; */
-  padding-top: 2px;
+  border-radius: 20px;
 }
 .list-info {
   text-align: left;
@@ -634,7 +637,8 @@ ul {
 }
 .list-heart {
   color: #8b8b8b;
-  font-size: 24px;
+  height: 24px;
+  width: 24px;
 }
 .rating {
   margin-right: 8px;
@@ -643,6 +647,31 @@ ul {
   margin-right: 8px;
   color: #00000015;
 }
+.btn-tab {
+  height: 38px;
+  width: 106px;
+  background: #ff3b00;
+  border: none;
+  border-radius: 5px;
+  color: #fcfcfc;
+  font-size: 16px;
+  font-weight: 500;
+}
+.on-button {
+  background: #ffc8b8;
+  width: 318px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.mr {
+  background: #ffc8b8;
+}
+ul li:last-child {
+  border-bottom: 0;
+}
+.pt-60 {
+  padding-top: 60px;
+}
 /* / ____________team list______________ / */
 .section-title h2 {
   text-align: center;
@@ -650,6 +679,25 @@ ul {
   font-size: 18px;
   color: #6e6e6e;
   font-weight: 700;
+}
+.team-list-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6e6e6e;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.btn-tab-border {
+  border: none;
+  background: none;
+  margin: 0 10px;
+  font-size: 16px;
+  color: #6e6e6e;
+}
+.btn-tab-border:hover {
+  transition: 0.3s;
+  border-bottom: 1px solid #000;
+  color: #000;
 }
 /* home1-map  */
 .bottom-icon {
@@ -660,6 +708,7 @@ ul {
 .home1-map {
   height: 280px;
   width: 375px;
+  max-width: 100%;
 }
 .bottom-icon {
   display: flex;
@@ -734,6 +783,7 @@ ul {
 }
 .menu-wrapper {
   width: 375px;
+  max-width: 100%;
   margin: 0 auto;
 }
 .menu-body {
@@ -815,4 +865,23 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: last baseline;
+}
+
+/*---------------------------- allprofile -------------------------- */
+.allprofile-body {
+  width: 375px;
+  max-width: 100%;
+  margin: 0 auto;
+  /* background: #f9f9fa; */
+}
+.allprofile-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6e6e6e;
+  padding-left: 127px;
+}
+.pl-10 {
+  padding-left: 10px;
+  height: 24px;
+  width: 24px;
 }
