@@ -1,6 +1,11 @@
 import React from 'react';
-import HomeMap from '../HomeMap/HomeMap';
-// import Profile from '../Sign/Profile';
+import Home1 from '../HomeMap/Home1';
+// import ShowList from '../Profile/ShowList';
+// import TeamList from '../Profile/TeamList';
+// import Profileds from '../Profile/Profileds';
+// import Profile from '../Profile/Profile';
+// import Notifications from '../Profile/Notifications';
+// import HomeMap from '../HomeMap/HomeMap';
 // import Index from '../Index/Index';
 // import Step1 from '../Sign/Step1';
 // import Step2 from '../Sign/Step2';
@@ -18,8 +23,13 @@ const Home = () => {
             {/* <Step2 /> */}
             {/* <Step3 /> */}
             {/* <Loader /> */}
+            {/* <HomeMap /> */}
+            {/* <Notifications /> */}
             {/* <Profile /> */}
-            <HomeMap />
+            {/* <Profileds /> */}
+            {/* <ShowList /> */}
+            {/* <TeamList /> */}
+            <Home1 />
 
         </div>
     );
