@@ -25,7 +25,7 @@ const ShowList = () => {
                 <button className='btn-tab mr' onClick={() => setCat('all')}>Gym</button>
 
             </div>
-            <div className="row row-cols-lg-4 row-cols-md-3 row-cols-sm-1 g-4">
+            <div className="pt-44">
                 {
                     productFilter.map(product => <div className="show-lists">
                         <ul>

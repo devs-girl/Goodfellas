@@ -21,7 +21,7 @@ const TeamList = () => {
         <div className='show-list-body'>
             <h2 className='team-list-title'>Teams list</h2>
 
-            <div className="row row-cols-lg-4 row-cols-md-3 row-cols-sm-1 g-4">
+            <div className="">
                 {
                     productFilter.map(product => <div className="show-lists">
                         <ul>

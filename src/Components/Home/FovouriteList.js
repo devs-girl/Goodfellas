@@ -24,11 +24,13 @@ const FovouriteList = () => {
                 <MdArrowBackIos />
                 <h1 className="noti-title">Favorite list</h1>
             </div>
-            <button className='btn-tab ' onClick={() => setCat('all')}>Relation</button>
-            <button className='btn-tab mr' onClick={() => setCat('all')}>Respect</button>
-            {/* <button onClick={() => setCat('hospitalutility')}>Respect</button> */}
 
-            <div className="row row-cols-lg-4 row-cols-md-3 row-cols-sm-1 g-4">
+            <div>
+                <button className='btn-tab ' onClick={() => setCat('all')}>Relation</button>
+                <button className='btn-tab mr' onClick={() => setCat('all')}>Respect</button>
+            </div>
+
+            <div>
                 {
                     productFilter.map(product => <div className="show-lists">
                         <ul>

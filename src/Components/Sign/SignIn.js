@@ -32,13 +32,12 @@ const SignIn = () => {
             <form action="#">
 
                 <input type="text" placeholder='Username or e-mail' />
-                {/* <input className='mb-0' type="password" placeholder='Password' /> */}
-                <div className='wrapper'>
-                    <div className='input-field'>
-                        <input placeholder='Password' type={type} />
-                        <span onClick={handleToggle}><Icon icon={icon} size={25} /></span>
-                    </div>
-                </div>
+
+                <input placeholder='Password' type={type} />
+                <p className='eye' onClick={handleToggle}><Icon icon={icon} /></p>
+
+
+
                 <p className='forgot'>Forgot password?</p>
                 <div className="btn">
                     <button className='main-btn'>Enter</button>

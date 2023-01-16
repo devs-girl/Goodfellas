@@ -1,5 +1,6 @@
 import React from 'react';
-import AllProfile from '../Profile/AllProfile';
+import Filter from '../Home/Filter';
+// import AllProfile from '../Profile/AllProfile';
 // import EditProfile from '../Profile/EditProfile';
 // import MainProfile from '../Profile/MainProfile';
 // import Home1 from '../Home/Home1';
@@ -14,6 +15,8 @@ import AllProfile from '../Profile/AllProfile';
 // import Step1 from '../Sign/Step1';
 // import Step2 from '../Sign/Step2';
 // import Step3 from '../Sign/Step3';
+// import SignIn from '../Sign/SignIn';
+// import SignUp from '../Sign/SignUp';
 
 const Home = () => {
     return (
@@ -37,7 +40,8 @@ const Home = () => {
             {/* <Home1 /> */}
             {/* <FovouriteList /> */}
             {/* <MainProfile /> */}
-            <AllProfile />
+            {/* <AllProfile /> */}
+            <Filter />
 
 
         </div>

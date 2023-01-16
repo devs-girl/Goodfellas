@@ -6,6 +6,8 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 24px;
   margin: 0 auto;
+  width: 375px;
+  max-width: 100%;
 }
 p,
 h1,
@@ -34,6 +36,12 @@ input[type='checkbox'] {
 }
 .mb-55 {
   margin-bottom: 55px;
+}
+.mb-55 {
+  margin-bottom: 55px;
+}
+.pt-44 {
+  padding-top: 44px;
 }
 .index-wrapper {
   background: #000000;
@@ -82,13 +90,14 @@ input[type='checkbox'] {
 
 /* -------------------------------------- sign in ------------------------------------------ */
 .signin-wrapper input {
-  width: 300px;
+  width: 335px;
   max-width: 100%;
   height: 48px;
   border-radius: 10px;
   border: none;
   font-size: 14px;
   color: #a7a7a7;
+  margin: 0 auto;
   margin-bottom: 16px;
   padding: 0 20px;
 }
@@ -672,6 +681,14 @@ ul li:last-child {
 .pt-60 {
   padding-top: 60px;
 }
+.eye {
+  right: 42px;
+  position: relative;
+  color: #a7a7a7;
+  top: -53px;
+  right: -137px;
+  height: 24px;
+}
 /* / ____________team list______________ / */
 .section-title h2 {
   text-align: center;
@@ -690,7 +707,7 @@ ul li:last-child {
 .btn-tab-border {
   border: none;
   background: none;
-  margin: 0 10px;
+  margin: 0 7px;
   font-size: 16px;
   color: #6e6e6e;
 }
@@ -884,4 +901,40 @@ ul li:last-child {
   padding-left: 10px;
   height: 24px;
   width: 24px;
+}
+/* filter  */
+
+.slider input {
+  height: 10px;
+  width: 308px;
+  max-width: 100%;
+  -webkit-appearance: none;
+  outline: none;
+  background: #e5e5e5;
+  border-radius: 25px;
+}
+.slider input::-moz-range-progress {
+  height: 10px;
+  border-radius: 25px;
+  background: #ff3b00;
+}
+.slider input::-moz-range-thumb {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  border: 4px solid #ff3b00;
+  background: #ffffff;
+  -webkit-appearance: none;
+}
+.value {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: inline-block;
+  color: #ff3b00;
 }
