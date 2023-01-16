@@ -23,10 +23,10 @@ const TeamList = () => {
 
             <div className="">
                 {
-                    productFilter.map(product => <div className="show-lists">
+                    productFilter.map((product, i) => <div className="show-lists">
                         <ul>
                             <li>
-                                <div className="list-detail">
+                                <div className={`list-detail ${productFilter.length === i + 1 ? "" : "list-border"}`} >
                                     <div className="single-list">
                                         <p className='nmbr'>{product.id}</p>
                                         <img className='list-img' src={product.img} alt="" />

@@ -8,6 +8,7 @@ import '../../CSS/style.css';
 import Bar from '../../img/bar.png';
 import NotiImg1 from '../../img/noti2.png';
 import Profile1 from '../../img/profile1.png';
+import Map from '../Map/Map';
 
 
 
@@ -48,7 +49,7 @@ const Home1 = () => {
 
             <p className="to">Close to you</p>
             <div className="home1-map">
-
+                <Map />
             </div>
 
             <div className="rank">

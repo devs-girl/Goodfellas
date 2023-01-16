@@ -1,9 +1,10 @@
 import React from 'react';
-import Filter from '../Home/Filter';
+// import Map from '../Map/Map';
+// import Filter from '../Home/Filter';
 // import AllProfile from '../Profile/AllProfile';
 // import EditProfile from '../Profile/EditProfile';
 // import MainProfile from '../Profile/MainProfile';
-// import Home1 from '../Home/Home1';
+import Home1 from '../Home/Home1';
 // import ShowList from '../Profile/ShowList';
 // import TeamList from '../Profile/TeamList';
 // import Profileds from '../Profile/Profileds';
@@ -37,11 +38,12 @@ const Home = () => {
             {/* <Profileds /> */}
             {/* <ShowList /> */}
             {/* <TeamList /> */}
-            {/* <Home1 /> */}
+            <Home1 />
             {/* <FovouriteList /> */}
             {/* <MainProfile /> */}
             {/* <AllProfile /> */}
-            <Filter />
+            {/* <Filter /> */}
+            {/* <Map /> */}
 
 
         </div>
